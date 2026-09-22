@@ -11,6 +11,7 @@ public class Labyrinth {
      * @param x coordinate x in the labyrinth
      * @return the marked labyrinth or null if there is no way
      */
+    //EX 2
     public static int [][] check(int [][] actual, int y, int x) {
 
         if (x < 0 || x >= actual.length || y < 0 || y >= actual[x].length) {
@@ -51,6 +52,7 @@ public class Labyrinth {
         actual[x][y] = 2;
         return null;
     }
+    //EX1
     public static void main(String[] args) {
 
         RecursiveAlg recursiveAlg = new RecursiveAlg();
